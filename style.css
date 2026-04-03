@@ -1,0 +1,27 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Outfit', sans-serif;}
+
+body { background: #e0e7ff; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px;}
+
+.container { background: white; width: 100%; max-width: 500px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); padding: 40px 30px;}
+
+.search-box { display: flex; align-items: center; background: #f1f5f9; border-radius: 15px; padding: 5px;}
+.search-box input { flex: 1; border: none; background: transparent; padding: 15px 20px; font-size: 1.1rem; outline: none;}
+.search-box button { width: 50px; height: 50px; border-radius: 12px; border: none; background: #6366f1; color: white; font-size: 1.2rem; cursor: pointer; transition: 0.3s;}
+.search-box button:hover { background: #4f46e5;}
+
+.result { margin-top: 40px; }
+
+.word { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;}
+.word h3 { font-size: 2.5rem; color: #1e293b;}
+.word button { width: 50px; height: 50px; border-radius: 50%; font-size: 1.2rem; color: #6366f1; background: #e0e7ff; border: none; cursor: pointer; transition: 0.3s;}
+.word button:hover { background: #6366f1; color: white;}
+
+.details { display: flex; gap: 15px; color: #64748b; margin-bottom: 20px; font-size: 1.1rem;}
+
+.meaning { margin-bottom: 20px; }
+.meaning p { line-height: 1.6; color: #334155; font-size: 1.1rem;}
+.meaning span { color: #64748b; font-size: 0.9rem; font-style: italic; display: block; margin-top: 5px; margin-bottom: 5px;}
+
+.example { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: #475569; border-left: 3px solid #6366f1; padding-left: 15px; margin-top: 20px; font-style: italic;}
+
+.error { color: #ef4444; font-size: 1.2rem; text-align: center; margin-top: 20px;}
